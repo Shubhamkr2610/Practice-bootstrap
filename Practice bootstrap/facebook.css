@@ -1,0 +1,123 @@
+
+html,body{
+  background-color: dark;
+}
+.heading{
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.facebook-image{
+    height: 60px;
+}
+.input-search{
+    
+    border-radius: 15px;
+}
+.middle-heading{ 
+    margin-top: 20px;
+    display:flex ;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 25px;
+}
+.right-heading{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+}
+/* modified css */
+.main-page{
+    margin-top: 50px;
+    width: 100%; 
+    position: fixed;   
+
+}
+/* modified css */
+.left-part{
+    width: 30%;
+    border: 2px solid black;
+    overflow-y: scroll;
+    height: 95vh;
+    
+}
+.profile-container{
+    display: flex;
+    justify-content: space-arround;
+}
+.profile-icon{
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -10px;
+}
+.profile-name{
+    font-weight: 500;
+    margin-left: 50px;
+}
+.left-menu{
+    margin-top: 10px;
+    margin-left: -20px;
+
+}
+.left-list{
+    list-style: none;
+    line-height: 50px;
+}
+.left-menu-list{
+   font-size: larger;
+   font-weight: 500;
+   cursor: pointer;
+}
+.freinds{
+    color: rgb(12, 12, 131);
+    
+}
+/* modified css */
+.middle-part{
+    width: 40%;
+    border: 2px solid black;
+    overflow-y: scroll;
+    height: 95vh;
+}
+
+.story-container{
+   margin-top: 5px;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    /* margin: 1rem; */
+    border: 2px solid black;
+}
+.story-image-container{
+    margin: 0px 2px;
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 7rem;
+}
+.story-image-container img{
+    height: 85%;
+    width: 100%;
+    object-fit: fill;
+}
+.post-card-container{
+    width: 100%;
+    height: 20rem;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.post-card-image-container{
+    width: 100%;
+    height: 70%;
+}
+.post-card-image-container img{
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+/* modified css */
+.right-part{
+width: 30%;
+border: 2px solid black;
+overflow-y: scroll;
+height: 95vh;
+}

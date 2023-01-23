@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YoungFolks.com</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style1.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Young Folks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Study meterial</a></li>
+                <li><a class="dropdown-item" href="#">Assignment</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Test your skills</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6>This is my first model box</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="card-group">
+      <div class="card">
+        <img src="/Images/kalam sir.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/Images/kalam sir.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/Images/kalam sir.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content.
+            This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="ratio ratio-16x9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1mGi7zaNuFM" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <br>
+    <div id="carouselExampleIndicators" class="carousel slide carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Images/chicago.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/Los Angeles.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/new york.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title"
+      data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover
+    </button>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-4">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Facilis, ullam maxime? Ullam impedit harum non, provident unde velit dicta voluptatem
+            exercitationem tenetur modi mollitia rerum doloremque voluptate repellendus expedita neque.</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eos tenetur optio, quam quae ipsam nemo enim omnis laudantium esse consectetur, commodi
+            sunt velit expedita nulla molestiae dolor voluptatem, eum veniam?/a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Dolores autem natus, assumenda blanditiis illum placeat voluptate aliquid
+              deleniti repudiandae, id quod laboriosam ratione cum culpa mollitia eaque. Blanditiis, optio corrupti!</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Laudantium inventore consequatur, est, asperiores ad rem maxime expedita fugiat soluta
+              ducimus ex delectus error blanditiis, voluptas pariatur impedit accusantium placeat saepe.</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example"
+          tabindex="0">
+          <h4 id="list-item-1">Item 1</h4>
+          <p>...</p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>...</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>...</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container text-center grid">
+      <div class="row">
+        <div class="col">
+          <h5 class="column-1">Column</h5>
+        </div>
+        <div class="col">
+          <h5 class="column-2">Column</h5>
+        </div>
+        <div class="col">
+          <h5 class="column-3">Column</h5>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container text-center grid">
+      <div class="row row-cols-2">
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container text-center grid">
+      <div class="row row-cols-4">
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="container text-center grid">
+      <div class="row-2">
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+        <div class="col">
+          <h5>Column</h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
